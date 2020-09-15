@@ -583,9 +583,9 @@
                                                                 <div class="col-md-10">
                                                                     <textarea name="" id="" cols="30" rows="6"
                                                                         class="form-control" type="search"
-                                                                        placeholder="How do I shoot web"
-                                                                        id="address" data-toggle="tooltip"
-                                                                        data-placement="top" title="Address"></textarea>
+                                                                        placeholder="How do I shoot web" id="address"
+                                                                        data-toggle="tooltip" data-placement="top"
+                                                                        title="Address"></textarea>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
@@ -593,15 +593,15 @@
                                                                     class="col-md-2 col-form-label">Email</label>
                                                                 <div class="col-md-10">
                                                                     <input class="form-control" type="email"
-                                                                        value="bootstrap@example.com"
-                                                                        id="email" data-toggle="tooltip"
-                                                                        data-placement="top" title="Email">
+                                                                        value="bootstrap@example.com" id="email"
+                                                                        data-toggle="tooltip" data-placement="top"
+                                                                        title="Email">
                                                                 </div>
                                                             </div>
 
                                                             <div class="form-group row">
-                                                                <label for="hqPhone"
-                                                                    class="col-md-2 col-form-label">HQ Phone</label>
+                                                                <label for="hqPhone" class="col-md-2 col-form-label">HQ
+                                                                    Phone</label>
                                                                 <div class="col-md-10">
                                                                     <input class="form-control" type="tel"
                                                                         value="1-(555)-555-5555" id="hqPhone"
@@ -649,637 +649,1039 @@
                                         </div>
                                         <div class="tab-pane" id="profile1" role="tabpanel">
 
-                                            
-                    
-                                                   
-                    
-                                                    <!-- Nav tabs -->
-                                                    <ul class="nav nav-tabs" role="tablist">
-                                                        <li class="nav-item">
-                                                            <a class="nav-link active" data-toggle="tab" href="#home" role="tab">
-                                                                <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
-                                                                <span class="d-none d-sm-block">Location</span>    
-                                                            </a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
-                                                                <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
-                                                                <span class="d-none d-sm-block">Ordering</span>    
-                                                            </a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" data-toggle="tab" href="#messages" role="tab">
-                                                                <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
-                                                                <span class="d-none d-sm-block">Pickup/Delivery</span>    
-                                                            </a>
-                                                        </li>
-                                                        <li class="nav-item">
-                                                            <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
-                                                                <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
-                                                                <span class="d-none d-sm-block">Report</span>    
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                    
-                                                    <!-- Tab panes -->
-                                                    <div class="tab-content p-3 text-muted">
-                                                        <div class="tab-pane active" id="home" role="tabpanel">
-                                                            <div class="row bg-light p-3 mt-4">
-                                                                <div class="col-lg-4">
-                                                                    <div class="form-group">
-                                                                        <label for="titleFilter">Title</label>
-                                                                        <input type="text" class="form-control" id="titleFilter"
-                                                                            placeholder="Title">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-4">
-                                                                    <div class="form-group">
-                                                                        <label for="addressFilter">Address</label>
-                
-                                                                        <input type="text" class="form-control" id="addressFilter"
-                                                                            placeholder="Address">
-                                                                    </div>
-                                                                </div>
-                
-                                                                <div class="col-lg-4">
-                                                                    <div class="form-group">
-                                                                        <label for="statusFilter">Status</label><select
-                                                                            id="statusFilter" class="form-control">
-                                                                            <option selected="">Choose...</option>
-                                                                            <option>...</option>
-                                                                        </select>
-                                                                    </div>
-                                                                </div>
-                
-                                                                <div class="col-md-12 text-right"><button
-                                                                        class="btn btn-primary btn-rounded waves-effect waves-light">Filter</button>
-                                                                </div>
-                
-                                                            </div>
-                
-                                                            <div class="row">
-                                                                <div class="col">
-                                                                    <div class="card">
-                                                                        <div class="card-body">
-                                                                            <h4 class="card-title mb-4">Latest Transaction</h4>
-                                                                            <div class="table-responsive">
-                                                                                <table class="table table-centered table-nowrap mb-0">
-                                                                                    <thead class="thead-light">
-                                                                                        <tr>
-                                                                                            <th style="width: 20px;">
-                                                                                                <div
-                                                                                                    class="custom-control custom-checkbox">
-                                                                                                    <input type="checkbox"
-                                                                                                        class="custom-control-input"
-                                                                                                        id="customCheck1">
-                                                                                                    <label class="custom-control-label"
-                                                                                                        for="customCheck1">&nbsp;</label>
-                                                                                                </div>
-                                                                                            </th>
-                                                                                            <th>Owner</th>
-                                                                                            <th> Address</th>
-                                                                                            <th>Sort Order</th>
-                                                                                            <th>Status</th>
-                                                                                            <th>Action</th>
-                
-                                                                                        </tr>
-                                                                                    </thead>
-                                                                                    <tbody>
-                                                                                        <tr>
-                                                                                            <td>
-                                                                                                <div
-                                                                                                    class="custom-control custom-checkbox">
-                                                                                                    <input type="checkbox"
-                                                                                                        class="custom-control-input"
-                                                                                                        id="customCheck2">
-                                                                                                    <label class="custom-control-label"
-                                                                                                        for="customCheck2">&nbsp;</label>
-                                                                                                </div>
-                                                                                            </td>
-                
-                                                                                            <td>New York City - LIVE Authnet</td>
-                                                                                            <td>
-                                                                                                NYC, NY, USA
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                $400
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                <span
-                                                                                                    class="badge badge-pill badge-soft-success font-size-12">Enabled</span>
-                                                                                            </td>
-                
-                                                                                            <td>
-                                                                                                <!-- Button trigger modal -->
-                                                                                                <button type="button"
-                                                                                                    class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
-                                                                                                    data-toggle="modal"
-                                                                                                    data-target=".exampleModal">
-                                                                                                    <i
-                                                                                                        class="mdi mdi-pencil d-block font-size-16"></i>
-                                                                                                </button>
-                                                                                            </td>
-                                                                                        </tr>
-                
-                                                                                        <tr>
-                                                                                            <td>
-                                                                                                <div
-                                                                                                    class="custom-control custom-checkbox">
-                                                                                                    <input type="checkbox"
-                                                                                                        class="custom-control-input"
-                                                                                                        id="customCheck3">
-                                                                                                    <label class="custom-control-label"
-                                                                                                        for="customCheck3">&nbsp;</label>
-                                                                                                </div>
-                                                                                            </td>
-                
-                                                                                            <td>Jamal Burnett</td>
-                                                                                            <td>
-                                                                                                jaipur, Rajasthan, india
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                $380
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                <span
-                                                                                                    class="badge badge-pill badge-soft-danger font-size-12">Disabled</span>
-                                                                                            </td>
-                
-                                                                                            <td>
-                                                                                                <!-- Button trigger modal -->
-                                                                                                <button type="button"
-                                                                                                    class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
-                                                                                                    data-toggle="modal"
-                                                                                                    data-target=".exampleModal">
-                                                                                                    <i
-                                                                                                        class="mdi mdi-pencil d-block font-size-16"></i>
-                                                                                                </button>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr>
-                                                                                            <td>
-                                                                                                <div
-                                                                                                    class="custom-control custom-checkbox">
-                                                                                                    <input type="checkbox"
-                                                                                                        class="custom-control-input"
-                                                                                                        id="customCheck2">
-                                                                                                    <label class="custom-control-label"
-                                                                                                        for="customCheck2">&nbsp;</label>
-                                                                                                </div>
-                                                                                            </td>
-                
-                                                                                            <td>New York City - LIVE Authnet</td>
-                                                                                            <td>
-                                                                                                NYC, NY, USA
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                $400
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                <span
-                                                                                                    class="badge badge-pill badge-soft-success font-size-12">Enabled</span>
-                                                                                            </td>
-                
-                                                                                            <td>
-                                                                                                <!-- Button trigger modal -->
-                                                                                                <button type="button"
-                                                                                                    class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
-                                                                                                    data-toggle="modal"
-                                                                                                    data-target=".exampleModal">
-                                                                                                    <i
-                                                                                                        class="mdi mdi-pencil d-block font-size-16"></i>
-                                                                                                </button>
-                                                                                            </td>
-                                                                                        </tr>
-                
-                                                                                        <tr>
-                                                                                            <td>
-                                                                                                <div
-                                                                                                    class="custom-control custom-checkbox">
-                                                                                                    <input type="checkbox"
-                                                                                                        class="custom-control-input"
-                                                                                                        id="customCheck3">
-                                                                                                    <label class="custom-control-label"
-                                                                                                        for="customCheck3">&nbsp;</label>
-                                                                                                </div>
-                                                                                            </td>
-                
-                                                                                            <td>Jamal Burnett</td>
-                                                                                            <td>
-                                                                                                jaipur, Rajasthan, india
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                $380
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                <span
-                                                                                                    class="badge badge-pill badge-soft-danger font-size-12">Disabled</span>
-                                                                                            </td>
-                
-                                                                                            <td>
-                                                                                                <!-- Button trigger modal -->
-                                                                                                <button type="button"
-                                                                                                    class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
-                                                                                                    data-toggle="modal"
-                                                                                                    data-target=".exampleModal">
-                                                                                                    <i
-                                                                                                        class="mdi mdi-pencil d-block font-size-16"></i>
-                                                                                                </button>
-                                                                                            </td>
-                                                                                        </tr>
-                                                                                        <tr>
-                                                                                            <td>
-                                                                                                <div
-                                                                                                    class="custom-control custom-checkbox">
-                                                                                                    <input type="checkbox"
-                                                                                                        class="custom-control-input"
-                                                                                                        id="customCheck2">
-                                                                                                    <label class="custom-control-label"
-                                                                                                        for="customCheck2">&nbsp;</label>
-                                                                                                </div>
-                                                                                            </td>
-                
-                                                                                            <td>New York City - LIVE Authnet</td>
-                                                                                            <td>
-                                                                                                NYC, NY, USA
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                $400
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                <span
-                                                                                                    class="badge badge-pill badge-soft-success font-size-12">Enabled</span>
-                                                                                            </td>
-                
-                                                                                            <td>
-                                                                                                <!-- Button trigger modal -->
-                                                                                                <button type="button"
-                                                                                                    class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
-                                                                                                    data-toggle="modal"
-                                                                                                    data-target=".exampleModal">
-                                                                                                    <i
-                                                                                                        class="mdi mdi-pencil d-block font-size-16"></i>
-                                                                                                </button>
-                                                                                            </td>
-                                                                                        </tr>
-                
-                                                                                        <tr>
-                                                                                            <td>
-                                                                                                <div
-                                                                                                    class="custom-control custom-checkbox">
-                                                                                                    <input type="checkbox"
-                                                                                                        class="custom-control-input"
-                                                                                                        id="customCheck3">
-                                                                                                    <label class="custom-control-label"
-                                                                                                        for="customCheck3">&nbsp;</label>
-                                                                                                </div>
-                                                                                            </td>
-                
-                                                                                            <td>Jamal Burnett</td>
-                                                                                            <td>
-                                                                                                jaipur, Rajasthan, india
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                $380
-                                                                                            </td>
-                                                                                            <td>
-                                                                                                <span
-                                                                                                    class="badge badge-pill badge-soft-danger font-size-12">Disabled</span>
-                                                                                            </td>
-                
-                                                                                            <td>
-                                                                                                <!-- Button trigger modal -->
-                                                                                                <button type="button"
-                                                                                                    class="btn btn-primary btn-sm btn-rounded waves-effect waves-light"
-                                                                                                    data-toggle="modal"
-                                                                                                    data-target=".exampleModal">
-                                                                                                    <i
-                                                                                                        class="mdi mdi-pencil d-block font-size-16"></i>
-                                                                                                </button>
-                                                                                            </td>
-                                                                                        </tr>
-                
-                
-                                                                                    </tbody>
-                                                                                </table>
-                                                                                <p class="text-right mt-4">Showing 1 to 7 of 7 (1 Pages)
-                                                                                </p>
-                                                                            </div>
-                                                                            <!-- end table-responsive -->
+
+<div class="latest-transaction">
+    <div class="row bg-light p-3 mt-4">
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label for="titleFilter">Title</label>
+                <input type="text" class="form-control" id="titleFilter"
+                    placeholder="Title">
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label for="addressFilter">Address</label>
+
+                <input type="text" class="form-control" id="addressFilter"
+                    placeholder="Address">
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="form-group">
+                <label for="statusFilter">Status</label><select
+                    id="statusFilter" class="form-control">
+                    <option selected="">Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="col-md-12 text-right"><button
+                class="btn btn-primary btn-rounded waves-effect waves-light">Filter</button>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title mb-4">Latest Transaction</h4>
+                    <div class="table-responsive">
+                        <table class="table table-centered table-nowrap mb-0">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th style="width: 20px;">
+                                        <div
+                                            class="custom-control custom-checkbox">
+                                            <input type="checkbox"
+                                                class="custom-control-input"
+                                                id="customCheck1">
+                                            <label class="custom-control-label"
+                                                for="customCheck1">&nbsp;</label>
+                                        </div>
+                                    </th>
+                                    <th>Owner</th>
+                                    <th> Address</th>
+                                    <th>Sort Order</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div
+                                            class="custom-control custom-checkbox">
+                                            <input type="checkbox"
+                                                class="custom-control-input"
+                                                id="customCheck2">
+                                            <label class="custom-control-label"
+                                                for="customCheck2">&nbsp;</label>
+                                        </div>
+                                    </td>
+
+                                    <td>New York City - LIVE Authnet</td>
+                                    <td>
+                                        NYC, NY, USA
+                                    </td>
+                                    <td>
+                                        $400
+                                    </td>
+                                    <td>
+                                        <span
+                                            class="badge badge-pill badge-soft-success font-size-12">Enabled</span>
+                                    </td>
+
+                                    <td>
+                                        <!-- Button trigger modal -->
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                            data-toggle="modal"
+                                            data-target=".exampleModal">
+                                            <i
+                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div
+                                            class="custom-control custom-checkbox">
+                                            <input type="checkbox"
+                                                class="custom-control-input"
+                                                id="customCheck3">
+                                            <label class="custom-control-label"
+                                                for="customCheck3">&nbsp;</label>
+                                        </div>
+                                    </td>
+
+                                    <td>Jamal Burnett</td>
+                                    <td>
+                                        jaipur, Rajasthan, india
+                                    </td>
+                                    <td>
+                                        $380
+                                    </td>
+                                    <td>
+                                        <span
+                                            class="badge badge-pill badge-soft-danger font-size-12">Disabled</span>
+                                    </td>
+
+                                    <td>
+                                        <!-- Button trigger modal -->
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab
+                                            data-toggle="modal"
+                                            data-target=".exampleModal">
+                                            <i
+                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div
+                                            class="custom-control custom-checkbox">
+                                            <input type="checkbox"
+                                                class="custom-control-input"
+                                                id="customCheck2">
+                                            <label class="custom-control-label"
+                                                for="customCheck2">&nbsp;</label>
+                                        </div>
+                                    </td>
+
+                                    <td>New York City - LIVE Authnet</td>
+                                    <td>
+                                        NYC, NY, USA
+                                    </td>
+                                    <td>
+                                        $400
+                                    </td>
+                                    <td>
+                                        <span
+                                            class="badge badge-pill badge-soft-success font-size-12">Enabled</span>
+                                    </td>
+
+                                    <td>
+                                        <!-- Button trigger modal -->
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                            data-toggle="modal"
+                                            data-target=".exampleModal">
+                                            <i
+                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div
+                                            class="custom-control custom-checkbox">
+                                            <input type="checkbox"
+                                                class="custom-control-input"
+                                                id="customCheck3">
+                                            <label class="custom-control-label"
+                                                for="customCheck3">&nbsp;</label>
+                                        </div>
+                                    </td>
+
+                                    <td>Jamal Burnett</td>
+                                    <td>
+                                        jaipur, Rajasthan, india
+                                    </td>
+                                    <td>
+                                        $380
+                                    </td>
+                                    <td>
+                                        <span
+                                            class="badge badge-pill badge-soft-danger font-size-12">Disabled</span>
+                                    </td>
+
+                                    <td>
+                                        <!-- Button trigger modal -->
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                            data-toggle="modal"
+                                            data-target=".exampleModal">
+                                            <i
+                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div
+                                            class="custom-control custom-checkbox">
+                                            <input type="checkbox"
+                                                class="custom-control-input"
+                                                id="customCheck2">
+                                            <label class="custom-control-label"
+                                                for="customCheck2">&nbsp;</label>
+                                        </div>
+                                    </td>
+
+                                    <td>New York City - LIVE Authnet</td>
+                                    <td>
+                                        NYC, NY, USA
+                                    </td>
+                                    <td>
+                                        $400
+                                    </td>
+                                    <td>
+                                        <span
+                                            class="badge badge-pill badge-soft-success font-size-12">Enabled</span>
+                                    </td>
+
+                                    <td>
+                                        <!-- Button trigger modal -->
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                            data-toggle="modal"
+                                            data-target=".exampleModal">
+                                            <i
+                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div
+                                            class="custom-control custom-checkbox">
+                                            <input type="checkbox"
+                                                class="custom-control-input"
+                                                id="customCheck3">
+                                            <label class="custom-control-label"
+                                                for="customCheck3">&nbsp;</label>
+                                        </div>
+                                    </td>
+
+                                    <td>Jamal Burnett</td>
+                                    <td>
+                                        jaipur, Rajasthan, india
+                                    </td>
+                                    <td>
+                                        $380
+                                    </td>
+                                    <td>
+                                        <span
+                                            class="badge badge-pill badge-soft-danger font-size-12">Disabled</span>
+                                    </td>
+
+                                    <td>
+                                        <!-- Button trigger modal -->
+                                        <button type="button"
+                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                            data-toggle="modal"
+                                            data-target=".exampleModal">
+                                            <i
+                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+                        <p class="text-right mt-4">Showing 1 to 7 of 7 (1 Pages)
+                        </p>
+                    </div>
+                    <!-- end table-responsive -->
+                </div>
+            </div>
+        </div>
+    </div></div>
+
+                                            <!-- Nav tabs -->
+                                            <div class="card rounded nested-location-tab" style="display: none;">
+                                                <div class="card-body"><div class="row">
+                                                    <div class="col-md-3">
+                                                        <ul class="nav flex-column nav-pills" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" data-toggle="tab" href="#home"
+                                                                    role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="fas fa-home"></i></span>
+                                                                    <span class="d-none d-sm-block">Location</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#profile"
+                                                                    role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="far fa-user"></i></span>
+                                                                    <span class="d-none d-sm-block">Ordering</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#messages"
+                                                                    role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="far fa-envelope"></i></span>
+                                                                    <span class="d-none d-sm-block">Pickup/Delivery</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#settings"
+                                                                    role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="fas fa-cog"></i></span>
+                                                                    <span class="d-none d-sm-block">Report</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                        <div class="tab-content p-3 text-muted">
+                                                            <div class="tab-pane active" id="home" role="tabpanel">
+                                                                <form>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationStatus"
+                                                                            class="col-sm-3 col-form-label">Status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="locationStatus"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
                                                                         </div>
                                                                     </div>
-                                                                </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="sortOrder"
+                                                                            class="col-sm-3 col-form-label">Sort Order</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="sortOrder" value="1">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationName"
+                                                                            class="col-sm-3 col-form-label">Location
+                                                                            Name</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationName" value="1">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="timeZone"
+                                                                            class="col-sm-3 col-form-label">Timezone</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="timeZone" class="form-control">
+                                                                                <option value="">America/New_York</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="displayAddress"
+                                                                            class="col-sm-3 col-form-label">Display
+                                                                            Address</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="displayAddress"
+                                                                                value="123 Main Land OMG Street New York City, NY, 12343">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationPhone"
+                                                                            class="col-sm-3 col-form-label">Phone</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationPhone" value="1234323234">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationEmail"
+                                                                            class="col-sm-3 col-form-label">Email</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationEmail"
+                                                                                value="email@biteheist23.com">
+                                                                            <small> Add 1 or multiple emails, separated by a
+                                                                                comma, to receive the order confirmation emails
+                                                                                for only this location . (Ex: kyle@mail.com,
+                                                                                ally@mail.com)
+        
+                                                                            </small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="emailPrint"
+                                                                            class="col-sm-3 col-form-label">ePrint Email</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="emailPrint" value="email@biteheist23.com">
+                                                                            <small>If you have an HP ePrint printer, add the
+                                                                                email address here to get the orders printed.
+                                                                            </small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationFax"
+                                                                            class="col-sm-3 col-form-label">Fax</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationFax" value="Fax">
+                                                                            <small>Any fax number added will receive an Fax.
+                                                                            </small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="serviceCharge"
+                                                                            class="col-sm-3 col-form-label">Service Charge
+                                                                            status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="serviceCharge"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="serviceCharge"
+                                                                            class="col-sm-3 col-form-label">Clover</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="serviceCharge"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+        
+        
+                                                                </form>
+                                                            </div>
+                                                            <div class="tab-pane" id="profile" role="tabpanel">
+                                                                <form>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="serviceCharge"
+                                                                            class="col-sm-3 col-form-label"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="If print required is un-checked then the PDF print will not be sent">
+                                                                            <i class="bx bx-info-circle
+                                                                "></i> Print Required</label>
+                                                                        <div class="col-sm-9">
+                                                                            <div class="custom-control custom-switch custom-switch-lg"
+                                                                                dir="ltr">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customSwitchsizelg" checked="">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customSwitchsizelg"></label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="smsAlert" class="col-sm-3 col-form-label">
+                                                                            SMS Alert</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="smsAlert"
+                                                                                placeholder="Enter Mobile Number"
+                                                                                class="form-control" data-toggle="tooltip"
+                                                                                data-placement="top" title="SMS Alert">
+        
+                                                                            <small>Any mobile number added will receive an SMS
+                                                                                for each order with the link to the
+                                                                                order.</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="automatedCall"
+                                                                            class="col-sm-3 col-form-label">Automated
+                                                                            Call</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="automatedCall"
+                                                                                placeholder="Enter Mobile Number"
+                                                                                class="form-control" data-toggle="tooltip"
+                                                                                data-placement="top" title="Automated Call">
+        
+                                                                            <small>An automated phone call will be placed to the
+                                                                                location phone number noted above alerting staff
+                                                                                an order has been placed.</small>
+        
+                                                                            <div
+                                                                                class="custom-control custom-checkbox mb-2 mt-3">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="everyOrder">
+                                                                                <label class="custom-control-label"
+                                                                                    for="everyOrder">Every Order</label>
+                                                                            </div>
+                                                                            <div class="custom-control custom-checkbox mb-2">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="ifPrintFails">
+                                                                                <label class="custom-control-label"
+                                                                                    for="ifPrintFails">If Prints Fails
+        
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="noOfPrints"
+                                                                            class="col-sm-3 col-form-label">Number of
+                                                                            Prints</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="noOfPrints"
+                                                                                class="form-control">
+                                                                                <option value="">1</option>
+                                                                                <option value="">2</option>
+                                                                                <option value="">3</option>
+                                                                                <option value="">4</option>
+                                                                                <option value="">5</option>
+                                                                                <option value="">6</option>
+                                                                                <option value="">7</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationBasedTax"
+                                                                            class="col-sm-3 col-form-label">Location Based
+                                                                            Tax</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="locationBasedTax"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="printgenieStatus"
+                                                                            class="col-sm-3 col-form-label">Printgenie
+                                                                            status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="printgenieStatus"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="ipadRefreshTime"
+                                                                            class="col-sm-3 col-form-label">Ipad Refresh Time In
+                                                                            Minutes</label>
+                                                                        <div class="col-sm-9">
+        
+                                                                            <input type="text" id="ipadRefreshTime" value="0"
+                                                                                class="form-control" data-toggle="tooltip"
+                                                                                data-placement="top"
+                                                                                title="Ipad Refresh Time In Minutes">
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="ipadRefreshTime"
+                                                                            class="col-sm-3 col-form-label">Hide Prep
+                                                                            Times</label>
+                                                                        <div class="col-sm-9">
+        
+                                                                            <div class="custom-control custom-checkbox mb-2">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input" id="everyOrder"
+                                                                                    checked>
+                                                                                <label class="custom-control-label"
+                                                                                    for="everyOrder"></label>
+                                                                            </div>
+                                                                            <small>Check this box if you do not want the
+                                                                                customer to see the ready time on their
+                                                                                receipt.</small>
+                                                                        </div>
+                                                                    </div>
+        
+        
+        
+                                                                </form>
+                                                            </div>
+                                                            <div class="tab-pane" id="messages" role="tabpanel">
+        
+                                                                <form>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="enablePickup"
+                                                                            class="col-sm-3 col-form-label">Enable Pick
+                                                                            Up</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="enablePickup"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="pickupPrepTime"
+                                                                            class="col-sm-3 col-form-label" data-toggle="tooltip" data-placement="top"
+                                                                            title="If print required is un-checked then the PDF print will not be sent">
+                                                                            <i class="bx bx-info-circle
+                                                                "></i> Pick Up Prep Time
+                                                                            (in min)</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="pickupPrepTime"
+                                                                                class="form-control" value="45"
+                                                                                data-toggle="tooltip" data-placement="top"
+                                                                                title="Pick Up Prep Time (in min)">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="enableDelivery"
+                                                                            class="col-sm-3 col-form-label">Enable
+                                                                            Delivery</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="enableDelivery"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="deliveryFee"
+                                                                            class="col-sm-3 col-form-label">Delivery Fee</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="deliveryFee"
+                                                                                class="form-control" value="10.00"
+                                                                                data-toggle="tooltip" data-placement="top"
+                                                                                title="Delivery Fee">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="maxDeliveryAmount"
+                                                                            class="col-sm-3 col-form-label">Minimum Delivery
+                                                                            Amount</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="maxDeliveryAmount"
+                                                                                class="form-control" value="10.00"
+                                                                                data-toggle="tooltip" data-placement="top"
+                                                                                title="Minimum Delivery Amount">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="deliveryFeeDelivery"
+                                                                            class="col-sm-3 col-form-label">Delivery Fee
+                                                                            Settings</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="deliveryFeeDelivery"
+                                                                                class="form-control">
+                                                                                <option value="">Always apply delivery fee
+                                                                                </option>
+                                                                                <option value=""> Apply delivery fee if the
+                                                                                    subtotal is less than the delivery minimum
+                                                                                </option>
+                                                                                <option value=""> Do not allow ordering until
+                                                                                    the subtotal is more than the delivery
+                                                                                    minimum</option>
+                                                                                <option value=""> None of the above</option>
+        
+        
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="maxDeliveryAmount"
+                                                                            class="col-sm-3 col-form-label">Delivery ready
+                                                                            Time</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="maxDeliveryAmount"
+                                                                                class="form-control" value="60"
+                                                                                data-toggle="tooltip" data-placement="top"
+                                                                                title="Delivery ready Time">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="deliveryOptions"
+                                                                            class="col-sm-3 col-form-label">Delivery
+                                                                            Option</label>
+                                                                        <div class="col-sm-9">
+        
+                                                                            <div class="custom-control custom-radio mb-3">
+                                                                                <input type="radio" id="customRadio1"
+                                                                                    name="customRadio"
+                                                                                    class="custom-control-input">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customRadio1">GeoFence</label>
+                                                                            </div>
+                                                                            <div class="custom-control custom-radio ">
+                                                                                <input type="radio" id="customRadio2"
+                                                                                    name="customRadio"
+                                                                                    class="custom-control-input" checked="">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customRadio2">Delivery Listings
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+        
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="deliveryZone"
+                                                                            class="col-sm-3 col-form-label">Delivery Zone
+                                                                        </label>
+                                                                        <div class="col-sm-9">
+                                                                            <iframe
+                                                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10299359.556503888!2d-85.00792895146795!3d36.30571718471371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA%2C%20USA!5e0!3m2!1sen!2sin!4v1600168978476!5m2!1sen!2sin"
+                                                                                width="100%" height="450" frameborder="0"
+                                                                                style="border:0;" allowfullscreen=""
+                                                                                aria-hidden="false" tabindex="0"></iframe>
+                                                                        </div>
+        
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <div class="tab-pane" id="settings" role="tabpanel">
+                                                                <form>
+                                                                    <div class="form-group row mt-2">
+                                                                        <label for="reportStatus"
+                                                                            class="col-sm-3 col-form-label">Report
+                                                                            Status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="reportStatus"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+        
+                                                                            </select>
+                                                                        </div>
+        
+                                                                    </div>
+                                                                </form>
                                                             </div>
                                                         </div>
-                                                        <div class="tab-pane" id="profile" role="tabpanel">
-                                                            <p class="mb-0">
-                                                                Food truck fixie locavore, accusamus mcsweeney's marfa nulla
-                                                                single-origin coffee squid. Exercitation +1 labore velit, blog
-                                                                sartorial PBR leggings next level wes anderson artisan four loko
-                                                                farm-to-table craft beer twee. Qui photo booth letterpress,
-                                                                commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
-                                                                vinyl cillum PBR. Homo nostrud organic, assumenda labore
-                                                                aesthetic magna delectus.
-                                                            </p>
-                                                        </div>
-                                                        <div class="tab-pane" id="messages" role="tabpanel">
-                                                            <p class="mb-0">
-                                                                Etsy mixtape wayfarers, ethical wes anderson tofu before they
-                                                                sold out mcsweeney's organic lomo retro fanny pack lo-fi
-                                                                farm-to-table readymade. Messenger bag gentrify pitchfork
-                                                                tattooed craft beer, iphone skateboard locavore carles etsy
-                                                                salvia banksy hoodie helvetica. DIY synth PBR banksy irony.
-                                                                Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh
-                                                                mi whatever gluten yr.
-                                                            </p>
-                                                        </div>
-                                                        <div class="tab-pane" id="settings" role="tabpanel">
-                                                            <p class="mb-0">
-                                                                Trust fund seitan letterpress, keytar raw denim keffiyeh etsy
-                                                                art party before they sold out master cleanse gluten-free squid
-                                                                scenester freegan cosby sweater. Fanny pack portland seitan DIY,
-                                                                art party locavore wolf cliche high life echo park Austin. Cred
-                                                                vinyl keffiyeh DIY salvia PBR, banh mi before they sold out
-                                                                farm-to-table VHS.
-                                                            </p>
-                                                        </div>
                                                     </div>
-                    
-                                             
+                                                </div></div>
+                                            </div>
+
+                                            <!-- Tab panes -->
 
 
 
-                                          
+
+
+
+
 
                                         </div>
                                         <div class="tab-pane" id="messages1" role="tabpanel">
-                                            <div class="card">
-                                                <div class="card-body">
 
 
-                                                    <form>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="orderNow" class="col-sm-3 col-form-label">Order
-                                                                Now</label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        id="orderNow">
-                                                                    <label class="custom-control-label"
-                                                                        for="orderNow"></label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="orderLater"
-                                                                class="col-sm-3 col-form-label">Order Later</label>
-                                                            <div class="col-sm-9">
-                                                                <select name="" id="orderLater" class="form-control">
-                                                                    <option value="">Enabled</option>
-                                                                    <option value="">Disabled</option>
 
-                                                                </select>
-                                                            </div>
+                                            <form>
+                                                <div class="form-group row mb-4">
+                                                    <label for="orderNow" class="col-sm-3 col-form-label">Order
+                                                        Now</label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="orderNow">
+                                                            <label class="custom-control-label" for="orderNow"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="orderLater"
-                                                                class="col-sm-3 col-form-label">Define order for later
-                                                                days</label>
-                                                            <div class="col-sm-9">
-                                                                <select name="" id="orderLater" class="form-control">
-                                                                    <option value="">10</option>
-                                                                    <option value="">9</option>
-                                                                    <option value="">8</option>
-                                                                    <option value="">7</option>
-                                                                    <option value="">6</option>
-                                                                    <option value="">5</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="futureOrder"
-                                                                class="col-sm-3 col-form-label">Order Future Time Same
-                                                                Day</label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        id="futureOrder">
-                                                                    <label class="custom-control-label"
-                                                                        for="futureOrder"></label>
-                                                                </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="orderLater" class="col-sm-3 col-form-label">Order
+                                                        Later</label>
+                                                    <div class="col-sm-9">
+                                                        <select name="" id="orderLater" class="form-control">
+                                                            <option value="">Enabled</option>
+                                                            <option value="">Disabled</option>
 
-                                                            </div>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="orderLater" class="col-sm-3 col-form-label">Define order
+                                                        for later
+                                                        days</label>
+                                                    <div class="col-sm-9">
+                                                        <select name="" id="orderLater" class="form-control">
+                                                            <option value="">10</option>
+                                                            <option value="">9</option>
+                                                            <option value="">8</option>
+                                                            <option value="">7</option>
+                                                            <option value="">6</option>
+                                                            <option value="">5</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="futureOrder" class="col-sm-3 col-form-label">Order
+                                                        Future Time Same
+                                                        Day</label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="futureOrder">
+                                                            <label class="custom-control-label"
+                                                                for="futureOrder"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="futureOrderDiffDay"
-                                                                class="col-sm-3 col-form-label">Order Future Time
-                                                                Different Day</label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        checked id="futureOrderDiffDay">
-                                                                    <label class="custom-control-label"
-                                                                        for="futureOrderDiffDay"></label>
-                                                                </div>
-                                                            </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="futureOrderDiffDay"
+                                                        class="col-sm-3 col-form-label">Order Future Time
+                                                        Different Day</label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input" checked
+                                                                id="futureOrderDiffDay">
+                                                            <label class="custom-control-label"
+                                                                for="futureOrderDiffDay"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="allowTip" class="col-sm-3 col-form-label">Allow
-                                                                Tip</label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        checked id="allowTip">
-                                                                    <label class="custom-control-label"
-                                                                        for="allowTip"></label>
-                                                                </div>
-                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="allowTip" class="col-sm-3 col-form-label">Allow
+                                                        Tip</label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input" checked
+                                                                id="allowTip">
+                                                            <label class="custom-control-label" for="allowTip"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="acceptAmex"
-                                                                class="col-sm-3 col-form-label">Accept AMEX:</label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        checked id="acceptAmex">
-                                                                    <label class="custom-control-label"
-                                                                        for="acceptAmex"></label>
-                                                                </div>
-                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="acceptAmex" class="col-sm-3 col-form-label">Accept
+                                                        AMEX:</label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input" checked
+                                                                id="acceptAmex">
+                                                            <label class="custom-control-label"
+                                                                for="acceptAmex"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="pickupTime" class="col-sm-3 col-form-label">Pick
-                                                                Up Prep Time (in min)</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="numbe" class="form-control" value="30"
-                                                                    data-toggle="tooltip" data-placement="top" title="Pick
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="pickupTime" class="col-sm-3 col-form-label">Pick
+                                                        Up Prep Time (in min)</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="numbe" class="form-control" value="30"
+                                                            data-toggle="tooltip" data-placement="top" title="Pick
                                                                 Up Prep Time (in min)" id="pickupTime">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="onlineOrdering"
-                                                                class="col-sm-3 col-form-label">Online Ordering</label>
-                                                            <div class="col-sm-9">
-                                                                <select name="" id="onlineOrdering"
-                                                                    class="form-control">
-                                                                    <option value="">Enabled</option>
-                                                                    <option value="">Disabled</option>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="onlineOrdering" class="col-sm-3 col-form-label">Online
+                                                        Ordering</label>
+                                                    <div class="col-sm-9">
+                                                        <select name="" id="onlineOrdering" class="form-control">
+                                                            <option value="">Enabled</option>
+                                                            <option value="">Disabled</option>
 
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="globalStockQuantity"
-                                                                class="col-sm-3 col-form-label">Global Low Stock
-                                                                Quantity</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="number" class="form-control" value="11"
-                                                                    data-toggle="tooltip" data-placement="top" title="Global Low Stock
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="globalStockQuantity"
+                                                        class="col-sm-3 col-form-label">Global Low Stock
+                                                        Quantity</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="number" class="form-control" value="11"
+                                                            data-toggle="tooltip" data-placement="top" title="Global Low Stock
                                                                 Quantity" id="globalStockQuantity">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="pickupTitle"
-                                                                class="col-sm-3 col-form-label">Choose Pickup
-                                                                Title</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="Custom Pickup Title" id="pickupTitle"
-                                                                    data-toggle="tooltip" data-placement="top"
-                                                                    title="Choose Pickup Title">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="deliveryTitle"
-                                                                class="col-sm-3 col-form-label">Choose Delivery
-                                                                Title</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="Custom Delivery Title" id="deliveryTitle"
-                                                                    data-toggle="tooltip" data-placement="top" title="Choose Delivery
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="pickupTitle" class="col-sm-3 col-form-label">Choose
+                                                        Pickup
+                                                        Title</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control"
+                                                            value="Custom Pickup Title" id="pickupTitle"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Choose Pickup Title">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="deliveryTitle" class="col-sm-3 col-form-label">Choose
+                                                        Delivery
+                                                        Title</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control"
+                                                            value="Custom Delivery Title" id="deliveryTitle"
+                                                            data-toggle="tooltip" data-placement="top" title="Choose Delivery
                                                                     Title">
-                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="peakHours" class="col-sm-3 col-form-label">Peak
+                                                        Hours</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control" value="Peak Hours"
+                                                            id="peakHours" data-toggle="tooltip" data-placement="top"
+                                                            title="Peak Hours">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="maxOrdersHours" class="col-sm-3 col-form-label">Max
+                                                        orders per
+                                                        hour</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control"
+                                                            value="Max orders per hour" id="maxOrdersHours"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Max orders per hour">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="shopCloseTitle" class="col-sm-3 col-form-label">Shop
+                                                        close Title</label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control"
+                                                            value="Sorry we are closed" id="shopCloseTitle"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Shop close Title">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="shopCloseText" class="col-sm-3 col-form-label">Shop
+                                                        close Text </label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control"
+                                                            value="This is sub text to type out. Blah Blah blah"
+                                                            id="shopCloseText" data-toggle="tooltip"
+                                                            data-placement="top" title="Shop close Text">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="shopCloseText" class="col-sm-3 col-form-label">Age
+                                                        Verification Warning
+                                                        Msg </label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control"
+                                                            value="Age Verification Warning Msg" id="shopCloseText"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Age Verification Warning  Msg">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="customMenuShop" class="col-sm-3 col-form-label">Custom
+                                                        Menu Shop
+                                                        Msg </label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="customMenuShop">
+                                                            <label class="custom-control-label"
+                                                                for="customMenuShop"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="peakHours" class="col-sm-3 col-form-label">Peak
-                                                                Hours</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="Peak Hours" id="peakHours"
-                                                                    data-toggle="tooltip" data-placement="top"
-                                                                    title="Peak Hours">
-                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="orderConfirmMsg" class="col-sm-3 col-form-label">Enable
+                                                        Order
+                                                        Confirmation SMS
+                                                        Msg </label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input" checked
+                                                                id="orderConfirmMsg">
+                                                            <label class="custom-control-label"
+                                                                for="orderConfirmMsg"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="maxOrdersHours"
-                                                                class="col-sm-3 col-form-label">Max orders per
-                                                                hour</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="Max orders per hour" id="maxOrdersHours"
-                                                                    data-toggle="tooltip" data-placement="top"
-                                                                    title="Max orders per hour">
-                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="hideSpecialInst" class="col-sm-3 col-form-label">Hide
+                                                        Special Instruction
+                                                        Msg </label>
+                                                    <div class="col-sm-9">
+                                                        <div
+                                                            class="custom-control custom-checkbox custom-checkbox-primary mb-3">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="hideSpecialInst">
+                                                            <label class="custom-control-label"
+                                                                for="hideSpecialInst"></label>
                                                         </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="shopCloseTitle"
-                                                                class="col-sm-3 col-form-label">Shop close Title</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="Sorry we are closed" id="shopCloseTitle"
-                                                                    data-toggle="tooltip" data-placement="top"
-                                                                    title="Shop close Title">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="shopCloseText"
-                                                                class="col-sm-3 col-form-label">Shop close Text </label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="This is sub text to type out. Blah Blah blah"
-                                                                    id="shopCloseText" data-toggle="tooltip"
-                                                                    data-placement="top" title="Shop close Text">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="shopCloseText"
-                                                                class="col-sm-3 col-form-label">Age Verification Warning
-                                                                Msg </label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="Age Verification Warning Msg"
-                                                                    id="shopCloseText" data-toggle="tooltip"
-                                                                    data-placement="top"
-                                                                    title="Age Verification Warning  Msg">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="customMenuShop"
-                                                                class="col-sm-3 col-form-label">Custom Menu Shop
-                                                                Msg </label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        id="customMenuShop">
-                                                                    <label class="custom-control-label"
-                                                                        for="customMenuShop"></label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="orderConfirmMsg"
-                                                                class="col-sm-3 col-form-label">Enable Order
-                                                                Confirmation SMS
-                                                                Msg </label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        checked id="orderConfirmMsg">
-                                                                    <label class="custom-control-label"
-                                                                        for="orderConfirmMsg"></label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="hideSpecialInst"
-                                                                class="col-sm-3 col-form-label">Hide Special Instruction
-                                                                Msg </label>
-                                                            <div class="col-sm-9">
-                                                                <div
-                                                                    class="custom-control custom-checkbox custom-checkbox-primary mb-3">
-                                                                    <input type="checkbox" class="custom-control-input"
-                                                                        id="hideSpecialInst">
-                                                                    <label class="custom-control-label"
-                                                                        for="hideSpecialInst"></label>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group row mb-4">
-                                                            <label for="instructionText"
-                                                                class="col-sm-3 col-form-label">Instruction Text
-                                                            </label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" class="form-control"
-                                                                    value="e.g. No peanuts, no salt....."
-                                                                    id="instructionText" data-toggle="tooltip"
-                                                                    data-placement="top" title="Instruction Text">
-                                                            </div>
-                                                        </div>
-                                                        <!-- <div class="form-group row mb-4">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row mb-4">
+                                                    <label for="instructionText"
+                                                        class="col-sm-3 col-form-label">Instruction Text
+                                                    </label>
+                                                    <div class="col-sm-9">
+                                                        <input type="text" class="form-control"
+                                                            value="e.g. No peanuts, no salt....." id="instructionText"
+                                                            data-toggle="tooltip" data-placement="top"
+                                                            title="Instruction Text">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="form-group row mb-4">
                                                 <label for="horizontal-password-input" class="col-sm-3 col-form-label">Password</label>
                                                 <div class="col-sm-9">
                                                   <input type="password" class="form-control" id="horizontal-password-input">
                                                 </div>
                                             </div> -->
 
-                                                        <!-- <div class="form-group row justify-content-end">
+                                                <!-- <div class="form-group row justify-content-end">
                                                 <div class="col-sm-9">
                                                     <div class="custom-control custom-checkbox mb-4">
                                                         <input type="checkbox" class="custom-control-input" id="horizontal-customCheck">
@@ -1291,9 +1693,8 @@
                                                     </div>
                                                 </div>
                                             </div> -->
-                                                    </form>
-                                                </div>
-                                            </div>
+                                            </form>
+
                                         </div>
                                         <div class="tab-pane" id="settings1" role="tabpanel">
 
@@ -1633,6 +2034,12 @@
 
     <script src="assets/js/pages/dashboard.init.js"></script>
     <script src="assets/js/app.js"></script>
+    <script>
+        $(".open-nested-location-tab").click(function () {
+            $(".latest-transaction").hide();
+            $(".nested-location-tab").show();
+        });
+    </script>
 </body>
 
 </html>
