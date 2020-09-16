@@ -558,7 +558,7 @@
                                         </li>
                                     </ul>
                                     <!-- Tab panes -->
-                                    <div class="tab-content p-3 text-muted mt-4">
+                                    <div class="tab-content p-3 text-muted mt-2">
                                         <div class="tab-pane active" id="home1" role="tabpanel">
                                             <div class="row">
                                                 <div class="col-12">
@@ -941,7 +941,7 @@
                                             <!-- Nav tabs -->
                                             <div class="card rounded nested-location-tab" style="display: none;">
                                                 <div class="card-body"><div class="row">
-                                                    <div class="col-md-3">
+                                                    <div class="col-md-2">
                                                         <ul class="nav flex-column nav-pills" role="tablist">
                                                             <li class="nav-item">
                                                                 <a class="nav-link active" data-toggle="tab" href="#home"
@@ -977,7 +977,7 @@
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                    <div class="col-md-9">
+                                                    <div class="col-md-10">
                                                         <div class="tab-content p-3 text-muted">
                                                             <div class="tab-pane active" id="home" role="tabpanel">
                                                                 <form>
@@ -1287,104 +1287,107 @@
                                                                             Delivery</label>
                                                                         <div class="col-sm-9">
                                                                             <select name="" id="enableDelivery"
-                                                                                class="form-control">
+                                                                                class="form-control enable-delivery">
                                                                                 <option value="">Enabled</option>
                                                                                 <option value="">Disabled</option>
         
                                                                             </select>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="form-group row mb-4">
-                                                                        <label for="deliveryFee"
-                                                                            class="col-sm-3 col-form-label">Delivery Fee</label>
-                                                                        <div class="col-sm-9">
-                                                                            <input type="text" id="deliveryFee"
-                                                                                class="form-control" value="10.00"
-                                                                                data-toggle="tooltip" data-placement="top"
-                                                                                title="Delivery Fee">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-group row mb-4">
-                                                                        <label for="maxDeliveryAmount"
-                                                                            class="col-sm-3 col-form-label">Minimum Delivery
-                                                                            Amount</label>
-                                                                        <div class="col-sm-9">
-                                                                            <input type="text" id="maxDeliveryAmount"
-                                                                                class="form-control" value="10.00"
-                                                                                data-toggle="tooltip" data-placement="top"
-                                                                                title="Minimum Delivery Amount">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-group row mb-4">
-                                                                        <label for="deliveryFeeDelivery"
-                                                                            class="col-sm-3 col-form-label">Delivery Fee
-                                                                            Settings</label>
-                                                                        <div class="col-sm-9">
-                                                                            <select name="" id="deliveryFeeDelivery"
-                                                                                class="form-control">
-                                                                                <option value="">Always apply delivery fee
-                                                                                </option>
-                                                                                <option value=""> Apply delivery fee if the
-                                                                                    subtotal is less than the delivery minimum
-                                                                                </option>
-                                                                                <option value=""> Do not allow ordering until
-                                                                                    the subtotal is more than the delivery
-                                                                                    minimum</option>
-                                                                                <option value=""> None of the above</option>
-        
-        
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-        
-                                                                    <div class="form-group row mb-4">
-                                                                        <label for="maxDeliveryAmount"
-                                                                            class="col-sm-3 col-form-label">Delivery ready
-                                                                            Time</label>
-                                                                        <div class="col-sm-9">
-                                                                            <input type="text" id="maxDeliveryAmount"
-                                                                                class="form-control" value="60"
-                                                                                data-toggle="tooltip" data-placement="top"
-                                                                                title="Delivery ready Time">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="form-group row mb-4">
-                                                                        <label for="deliveryOptions"
-                                                                            class="col-sm-3 col-form-label">Delivery
-                                                                            Option</label>
-                                                                        <div class="col-sm-9">
-        
-                                                                            <div class="custom-control custom-radio mb-3">
-                                                                                <input type="radio" id="customRadio1"
-                                                                                    name="customRadio"
-                                                                                    class="custom-control-input">
-                                                                                <label class="custom-control-label"
-                                                                                    for="customRadio1">GeoFence</label>
-                                                                            </div>
-                                                                            <div class="custom-control custom-radio ">
-                                                                                <input type="radio" id="customRadio2"
-                                                                                    name="customRadio"
-                                                                                    class="custom-control-input" checked="">
-                                                                                <label class="custom-control-label"
-                                                                                    for="customRadio2">Delivery Listings
-                                                                                </label>
+
+
+                                                                    <div class="enable-deliver-container">
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryFee"
+                                                                                class="col-sm-3 col-form-label">Delivery Fee</label>
+                                                                            <div class="col-sm-9">
+                                                                                <input type="text" id="deliveryFee"
+                                                                                    class="form-control" value="10.00"
+                                                                                    data-toggle="tooltip" data-placement="top"
+                                                                                    title="Delivery Fee">
                                                                             </div>
                                                                         </div>
-        
-                                                                    </div>
-                                                                    <div class="form-group row mb-4">
-                                                                        <label for="deliveryZone"
-                                                                            class="col-sm-3 col-form-label">Delivery Zone
-                                                                        </label>
-                                                                        <div class="col-sm-9">
-                                                                            <iframe
-                                                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10299359.556503888!2d-85.00792895146795!3d36.30571718471371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA%2C%20USA!5e0!3m2!1sen!2sin!4v1600168978476!5m2!1sen!2sin"
-                                                                                width="100%" height="450" frameborder="0"
-                                                                                style="border:0;" allowfullscreen=""
-                                                                                aria-hidden="false" tabindex="0"></iframe>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="maxDeliveryAmount"
+                                                                                class="col-sm-3 col-form-label">Minimum Delivery
+                                                                                Amount</label>
+                                                                            <div class="col-sm-9">
+                                                                                <input type="text" id="maxDeliveryAmount"
+                                                                                    class="form-control" value="10.00"
+                                                                                    data-toggle="tooltip" data-placement="top"
+                                                                                    title="Minimum Delivery Amount">
+                                                                            </div>
                                                                         </div>
-        
-                                                                    </div>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryFeeDelivery"
+                                                                                class="col-sm-3 col-form-label">Delivery Fee
+                                                                                Settings</label>
+                                                                            <div class="col-sm-9">
+                                                                                <select name="" id="deliveryFeeDelivery"
+                                                                                    class="form-control">
+                                                                                    <option value="">Always apply delivery fee
+                                                                                    </option>
+                                                                                    <option value=""> Apply delivery fee if the
+                                                                                        subtotal is less than the delivery minimum
+                                                                                    </option>
+                                                                                    <option value=""> Do not allow ordering until
+                                                                                        the subtotal is more than the delivery
+                                                                                        minimum</option>
+                                                                                    <option value=""> None of the above</option>
+            
+            
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+            
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="maxDeliveryAmount"
+                                                                                class="col-sm-3 col-form-label">Delivery ready
+                                                                                Time</label>
+                                                                            <div class="col-sm-9">
+                                                                                <input type="text" id="maxDeliveryAmount"
+                                                                                    class="form-control" value="60"
+                                                                                    data-toggle="tooltip" data-placement="top"
+                                                                                    title="Delivery ready Time">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryOptions"
+                                                                                class="col-sm-3 col-form-label">Delivery
+                                                                                Option</label>
+                                                                            <div class="col-sm-9">
+            
+                                                                                <div class="custom-control custom-radio mb-3">
+                                                                                    <input type="radio" id="customRadio1"
+                                                                                        name="customRadio"
+                                                                                        class="custom-control-input">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio1">GeoFence</label>
+                                                                                </div>
+                                                                                <div class="custom-control custom-radio ">
+                                                                                    <input type="radio" id="customRadio2"
+                                                                                        name="customRadio"
+                                                                                        class="custom-control-input" checked="">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio2">Delivery Listings
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+            
+                                                                        </div>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryZone"
+                                                                                class="col-sm-3 col-form-label">Delivery Zone
+                                                                            </label>
+                                                                            <div class="col-sm-9">
+                                                                                <iframe
+                                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10299359.556503888!2d-85.00792895146795!3d36.30571718471371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA%2C%20USA!5e0!3m2!1sen!2sin!4v1600168978476!5m2!1sen!2sin"
+                                                                                    width="100%" height="450" frameborder="0"
+                                                                                    style="border:0;" allowfullscreen=""
+                                                                                    aria-hidden="false" tabindex="0"></iframe>
+                                                                            </div>
+            
+                                                                        </div></div>
                                                                 </form>
                                                             </div>
                                                             <div class="tab-pane" id="settings" role="tabpanel">
@@ -2035,6 +2038,16 @@
     <script src="assets/js/pages/dashboard.init.js"></script>
     <script src="assets/js/app.js"></script>
     <script>
+        $('.enable-delivery').on('change', function() {
+      if ( this.value == '1')
+      {
+        $("#enable-deliver-container").show();
+      }
+      else
+      {
+        $(".enable-deliver-container").hide();
+      }
+    });
         $(".open-nested-location-tab").click(function () {
             $(".latest-transaction").hide();
             $(".nested-location-tab").show();
