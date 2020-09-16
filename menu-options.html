@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Starter Page | Skote - Responsive Bootstrap 4 Admin Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="Themesbrand" name="author" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+    <!-- Bootstrap Css -->
+    <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <!-- Icons Css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <!-- App Css-->
+    <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+</head>
+
+<body data-sidebar="dark">
+    <!-- Begin page -->
+    <div id="layout-wrapper">
+        <header id="page-topbar">
+            <div class="navbar-header">
+                <div class="d-flex">
+                    <!-- LOGO -->
+                    <div class="navbar-brand-box">
+                        <a href="index.html" class="logo logo-dark">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo.svg" alt="" height="22" />
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-dark.png" alt="" height="17" />
+                            </span>
+                        </a>
+
+                        <a href="index.html" class="logo logo-light">
+                            <span class="logo-sm">
+                                <img src="assets/images/logo-light.svg" alt="" height="22" />
+                            </span>
+                            <span class="logo-lg">
+                                <img src="assets/images/logo-light.png" alt="" height="19" />
+                            </span>
+                        </a>
+                    </div>
+
+                    <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect"
+                        id="vertical-menu-btn">
+                        <i class="fa fa-fw fa-bars"></i>
+                    </button>
+
+                    <!-- App Search-->
+                    <form class="app-search d-none d-lg-block">
+                        <div class="position-relative">
+                            <input type="text" class="form-control" placeholder="Search..." />
+                            <span class="bx bx-search-alt"></span>
+                        </div>
+                    </form>
+
+
+                </div>
+
+                <div class="d-flex">
+                    <div class="dropdown d-inline-block d-lg-none ml-2">
+                        <button type="button" class="btn header-item noti-icon waves-effect"
+                            id="page-header-search-dropdown" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="mdi mdi-magnify"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
+                            aria-labelledby="page-header-search-dropdown">
+                            <form class="p-3">
+                                <div class="form-group m-0">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search ..."
+                                            aria-label="Recipient's username" />
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="submit">
+                                                <i class="mdi mdi-magnify"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item waves-effect" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img class="" src="assets/images/flags/us.jpg" alt="Header Language" height="16" />
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12" />
+                                <span class="align-middle">Spanish</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12" />
+                                <span class="align-middle">German</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12" />
+                                <span class="align-middle">Italian</span>
+                            </a>
+
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12" />
+                                <span class="align-middle">Russian</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-none d-lg-inline-block ml-1">
+                        <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="bx bx-customize"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                            <div class="px-lg-2">
+                                <div class="row no-gutters">
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/github.png" alt="Github" />
+                                            <span>GitHub</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/bitbucket.png" alt="bitbucket" />
+                                            <span>Bitbucket</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/dribbble.png" alt="dribbble" />
+                                            <span>Dribbble</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="row no-gutters">
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/dropbox.png" alt="dropbox" />
+                                            <span>Dropbox</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp" />
+                                            <span>Mail Chimp</span>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a class="dropdown-icon-item" href="#">
+                                            <img src="assets/images/brands/slack.png" alt="slack" />
+                                            <span>Slack</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-none d-lg-inline-block ml-1">
+                        <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
+                            <i class="bx bx-fullscreen"></i>
+                        </button>
+                    </div>
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item noti-icon waves-effect"
+                            id="page-header-notifications-dropdown" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            <i class="bx bx-bell bx-tada"></i>
+                            <span class="badge badge-danger badge-pill">3</span>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
+                            aria-labelledby="page-header-notifications-dropdown">
+                            <div class="p-3">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <h6 class="m-0">Notifications</h6>
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#!" class="small"> View All</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-simplebar style="max-height: 230px">
+                                <a href="" class="text-reset notification-item">
+                                    <div class="media">
+                                        <div class="avatar-xs mr-3">
+                                            <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                <i class="bx bx-cart"></i>
+                                            </span>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="mt-0 mb-1">Your order is placed</h6>
+                                            <div class="font-size-12 text-muted">
+                                                <p class="mb-1">
+                                                    If several languages coalesce the grammar
+                                                </p>
+                                                <p class="mb-0">
+                                                    <i class="mdi mdi-clock-outline"></i> 3 min ago
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="text-reset notification-item">
+                                    <div class="media">
+                                        <img src="assets/images/users/avatar-3.jpg"
+                                            class="mr-3 rounded-circle avatar-xs" alt="user-pic" />
+                                        <div class="media-body">
+                                            <h6 class="mt-0 mb-1">James Lemire</h6>
+                                            <div class="font-size-12 text-muted">
+                                                <p class="mb-1">
+                                                    It will seem like simplified English.
+                                                </p>
+                                                <p class="mb-0">
+                                                    <i class="mdi mdi-clock-outline"></i> 1 hours ago
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="" class="text-reset notification-item">
+                                    <div class="media">
+                                        <div class="avatar-xs mr-3">
+                                            <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                <i class="bx bx-badge-check"></i>
+                                            </span>
+                                        </div>
+                                        <div class="media-body">
+                                            <h6 class="mt-0 mb-1">Your item is shipped</h6>
+                                            <div class="font-size-12 text-muted">
+                                                <p class="mb-1">
+                                                    If several languages coalesce the grammar
+                                                </p>
+                                                <p class="mb-0">
+                                                    <i class="mdi mdi-clock-outline"></i> 3 min ago
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="" class="text-reset notification-item">
+                                    <div class="media">
+                                        <img src="assets/images/users/avatar-4.jpg"
+                                            class="mr-3 rounded-circle avatar-xs" alt="user-pic" />
+                                        <div class="media-body">
+                                            <h6 class="mt-0 mb-1">Salena Layfield</h6>
+                                            <div class="font-size-12 text-muted">
+                                                <p class="mb-1">
+                                                    As a skeptical Cambridge friend of mine occidental.
+                                                </p>
+                                                <p class="mb-0">
+                                                    <i class="mdi mdi-clock-outline"></i> 1 hours ago
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="p-2 border-top">
+                                <a class="btn btn-sm btn-link font-size-14 btn-block text-center"
+                                    href="javascript:void(0)">
+                                    <i class="mdi mdi-arrow-right-circle mr-1"></i> View More..
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg"
+                                alt="Header Avatar" />
+                            <span class="d-none d-xl-inline-block ml-1">Henry</span>
+                            <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <!-- item-->
+                            <a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle mr-1"></i>
+                                Profile</a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="bx bx-wallet font-size-16 align-middle mr-1"></i>
+                                My Wallet</a>
+                            <a class="dropdown-item d-block" href="#"><span
+                                    class="badge badge-success float-right">11</span><i
+                                    class="bx bx-wrench font-size-16 align-middle mr-1"></i>
+                                Settings</a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="bx bx-lock-open font-size-16 align-middle mr-1"></i>
+                                Lock screen</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-danger" href="#"><i
+                                    class="bx bx-power-off font-size-16 align-middle mr-1 text-danger"></i>
+                                Logout</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown d-inline-block">
+                        <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                            <i class="bx bx-cog bx-spin"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="vertical-menu">
+            <div data-simplebar class="h-100">
+                <!--- Sidemenu -->
+                <div id="sidebar-menu">
+                    <!-- Left Menu Start -->
+                    <ul class="metismenu list-unstyled" id="side-menu">
+                        <li class="menu-title">Menu</li>
+
+                        <li>
+                            <a href="index.html" class="waves-effect">
+                                <i class="bx bxs-dashboard"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="bx bxs-purchase-tag"></i>
+                                <span>Menu</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="menu-cateory.html">Category</a></li>
+                                 <li><a href="menu-items.html">Items</a></li>
+                                <li><a href="menu-options.html">options</a></li>
+                                
+                                <li>
+                                    <a href="menu-setting.html">Custom Menu Setting</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:;" class="waves-effect">
+                                <i class="bx bx-file"></i>
+                                <span>Orders</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="bx bxs-group"></i>
+                                <span>Customers</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="javascript:;">Customers</a></li>
+                                <li><a href="javascript:;">Blacklist</a></li>
+                                <li><a href="javascript:;">Student Form</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="bx bx-tab                  "></i>
+                                <span>iPad</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="auth-login.html">iPad Settings</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="bx bx-bullseye
+                  "></i>
+                                <span>Marketing</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li><a href="javascript: void(0);">Coupons</a></li>
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow">reEngage</a>
+                                    <ul class="sub-menu" aria-expanded="true">
+                                        <li><a href="javascript: void(0);">Campaigns</a></li>
+                                        <li><a href="javascript: void(0);">Sent Mail</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript: void(0);">More Info</a></li>
+                                <li><a href="javascript: void(0);">Integration</a></li>
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow">Alert</a>
+                                    <ul class="sub-menu" aria-expanded="true">
+                                        <li><a href="javascript: void(0);">Custom Alert</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="bx bxs-report"></i>
+                                <span>Reports</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow">Orders</a>
+                                    <ul class="sub-menu" aria-expanded="true">
+                                        <li><a href="javascript: void(0);">Orders</a></li>
+                                        <li><a href="javascript: void(0);">Tax</a></li>
+                                        <li><a href="javascript: void(0);">Coupons</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow">Products</a>
+                                    <ul class="sub-menu" aria-expanded="true">
+                                        <li><a href="javascript: void(0);">Viewed</a></li>
+                                        <li><a href="javascript: void(0);">Purchased</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript: void(0);">Transactions</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="bx bx-cog"></i>
+                                <span>Settings</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="true">
+                                <li><a href="javascript:;">Payment Gateway</a></li>
+                                <li><a href="javascript:;">Settings</a></li>
+                                <li><a href="javascript:;">Set Holiday</a></li>
+                                <li>
+                                    <a href="javascript: void(0);" class="has-arrow">Localization</a>
+                                    <ul class="sub-menu" aria-expanded="true">
+                                        <li><a href="javascript: void(0);">Taxes</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="bx bx-support"></i>
+                                <span>Support</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="javascript:;">Ticket</a></li>
+                                <li><a href="javascript:;">FAQ</a></li>
+                                <li><a href="javascript:;">Video Tutorial</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li>
+                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                  <i class="bx bx-share-alt"></i>
+                  <span>Multi Level</span>
+                </a>
+                <ul class="sub-menu" aria-expanded="true">
+                  <li><a href="javascript: void(0);">Level 1.1</a></li>
+                  <li>
+                    <a href="javascript: void(0);" class="has-arrow"
+                      >Level 1.2</a
+                    >
+                    <ul class="sub-menu" aria-expanded="true">
+                      <li><a href="javascript: void(0);">Level 2.1</a></li>
+                      <li><a href="javascript: void(0);">Level 2.2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li> -->
+                    </ul>
+                </div>
+                <!-- Sidebar -->
+            </div>
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="main-content">
+            <div class="page-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">   <div class="latest-transaction">
+                            
+                        </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <!-- Tab panes -->
+                                    <div class="tab-pane" id="profile1" role="tabpanel">
+                                      <!-- Nav tabs -->
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title mb-4"> Option List</h4>
+                                                        <div class="table-responsive">
+                                                            <table class="table table-centered table-nowrap mb-0">
+                                                                <thead class="thead-light">
+                                                                    <tr>
+                                                                        <th style="width: 20px;">
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck1">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck1">&nbsp;</label>
+                                                                            </div>
+                                                                        </th>
+                                                                        <th>Option Name</th>
+                                                                        <th> Sort Order</th>
+                                                                        <th>Action
+                                                                        </th>
+                                                                        
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck2">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck2">&nbsp;</label>
+                                                                            </div>
+                                                                        </td>
+
+                                                                        <td>	Add On</td>
+                                                                        <td>
+                                                                            0	
+
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button"
+                                                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                                                            data-toggle="modal"
+                                                                            data-target=".exampleModal">
+                                                                            <i
+                                                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                                                        </button>
+                                                                        </td>
+                                                                      
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck3">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck3">&nbsp;</label>
+                                                                            </div>
+                                                                        </td>
+
+                                                                        <td>	Bread</td>
+                                                                        <td>
+                                                                            0	
+
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button"
+                                                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                                                            data-toggle="modal"
+                                                                            data-target=".exampleModal">
+                                                                            <i
+                                                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                                                        </button>
+                                                                        </td>
+                                                                      
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck2">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck2">&nbsp;</label>
+                                                                            </div>
+                                                                        </td>
+
+                                                                        <td>	Greek Fries Appetizer</td>
+                                                                       
+                                                                        
+                                                                        <td>
+                                                                            0	
+
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button"
+                                                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                                                            data-toggle="modal"
+                                                                            data-target=".exampleModal">
+                                                                            <i
+                                                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                                                        </button>
+                                                                        </td>
+                                                                      
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck2">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck2">&nbsp;</label>
+                                                                            </div>
+                                                                        </td>
+
+                                                                        <td>	Zucchini</td>
+                                                                       
+                                                                      
+                                                                      
+                                                                       
+                                                                        <td>
+                                                                            0	
+
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button"
+                                                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                                                            data-toggle="modal"
+                                                                            data-target=".exampleModal">
+                                                                            <i
+                                                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                                                        </button>
+                                                                        </td>
+                                                                      
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck2">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck2">&nbsp;</label>
+                                                                            </div>
+                                                                        </td>
+
+                                                                        <td>	Mushrooms</td>
+                                                                       
+                                                                        <td>
+                                                                            0	
+
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button"
+                                                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                                                            data-toggle="modal"
+                                                                            data-target=".exampleModal">
+                                                                            <i
+                                                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                                                        </button>
+                                                                        </td>
+                                                                      
+                                                                    </tr>
+                                                                       
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck2">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck2">&nbsp;</label>
+                                                                            </div>
+                                                                        </td>
+
+                                                                        <td>	Add On</td>
+                                                                        <td>
+                                                                            0	
+
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button"
+                                                                            class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                                                            data-toggle="modal"
+                                                                            data-target=".exampleModal">
+                                                                            <i
+                                                                                class="mdi mdi-pencil d-block font-size-16"></i>
+                                                                        </button>
+                                                                        </td>
+                                                                      
+                                                                    </tr>
+                                                                       
+                                                                     
+
+
+                                                                    <tr>
+                                                                        <td>
+                                                                            <div class="custom-control custom-checkbox">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customCheck2">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customCheck2">&nbsp;</label>
+                                                                            </div>
+                                                                        </td>
+
+                                                                        <td>	Cheese Sticks		</td>
+                                                                        <td>
+0
+                                                                        </td>
+                                                                       
+                                                                        
+
+                                                                        <td>
+                                                                            <!-- Button trigger modal -->
+                                                                            <button type="button"
+                                                                                class="btn btn-primary btn-sm btn-rounded waves-effect waves-light open-nested-location-tab"
+                                                                                data-toggle="modal"
+                                                                                data-target=".exampleModal">
+                                                                                <i
+                                                                                    class="mdi mdi-pencil d-block font-size-16"></i>
+                                                                            </button>
+                                                                        </td>
+                                                                    </tr>
+                                                                   
+
+
+                                                                    
+
+
+                                                                </tbody>
+                                                            </table>
+                                                          
+                                                        </div>  <div class="row mt-4">
+                                                            <div class="col-md-7">  <nav aria-label="...">
+                                                                <ul class="pagination">
+                                                                    <li class="page-item disabled">
+                                                                        <span class="page-link"><i class="mdi mdi-chevron-left"></i></span>
+                                                                    </li>
+                                                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                                                    <li class="page-item active">
+                                                                        <span class="page-link">
+                                                                            2
+                                                                            <span class="sr-only">(current)</span>
+                                                                        </span>
+                                                                    </li>
+                                                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                                                    <li class="page-item">
+                                                                        <a class="page-link" href="#"><i class="mdi mdi-chevron-right"></i></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </nav></div>
+                                                            <div class="col-md-5"><p class="text-right mt-4"> <p class="text-right mt-4">Showing 1 to 7 of 7 (1 Pages)</div>
+                                                            </div>
+                    </div>
+                                                        </div>
+                
+                                                        <!-- end table-responsive -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                      <!-- Showit later    -->                                    <!-- <div class="card rounded nested-location-tab" > -->
+                                            <!-- <div class="card-body">
+                                                <div class="row">
+                                                    <div class="col-md-2">
+                                                        <ul class="nav flex-column nav-pills" role="tablist">
+                                                            <li class="nav-item">
+                                                                <a class="nav-link active" data-toggle="tab"
+                                                                    href="#home" role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="fas fa-home"></i></span>
+                                                                    <span class="d-none d-sm-block">Location</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#profile"
+                                                                    role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="far fa-user"></i></span>
+                                                                    <span class="d-none d-sm-block">Ordering</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#messages"
+                                                                    role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="far fa-envelope"></i></span>
+                                                                    <span
+                                                                        class="d-none d-sm-block">Pickup/Delivery</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="nav-item">
+                                                                <a class="nav-link" data-toggle="tab" href="#settings"
+                                                                    role="tab">
+                                                                    <span class="d-block d-sm-none"><i
+                                                                            class="fas fa-cog"></i></span>
+                                                                    <span class="d-none d-sm-block">Report</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <div class="tab-content p-3 text-muted">
+                                                            <div class="tab-pane active" id="home" role="tabpanel">
+                                                                <form>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationStatus"
+                                                                            class="col-sm-3 col-form-label">Status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="locationStatus"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="sortOrder"
+                                                                            class="col-sm-3 col-form-label">Sort
+                                                                            Order</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="sortOrder" value="1">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationName"
+                                                                            class="col-sm-3 col-form-label">Location
+                                                                            Name</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationName" value="1">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="timeZone"
+                                                                            class="col-sm-3 col-form-label">Timezone</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="timeZone"
+                                                                                class="form-control">
+                                                                                <option value="">America/New_York
+                                                                                </option>
+                                                                                <option value="">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="displayAddress"
+                                                                            class="col-sm-3 col-form-label">Display
+                                                                            Address</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="displayAddress"
+                                                                                value="123 Main Land OMG Street New York City, NY, 12343">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationPhone"
+                                                                            class="col-sm-3 col-form-label">Phone</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationPhone" value="1234323234">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationEmail"
+                                                                            class="col-sm-3 col-form-label">Email</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationEmail"
+                                                                                value="email@biteheist23.com">
+                                                                            <small> Add 1 or multiple emails, separated
+                                                                                by a
+                                                                                comma, to receive the order confirmation
+                                                                                emails
+                                                                                for only this location . (Ex:
+                                                                                kyle@mail.com,
+                                                                                ally@mail.com)
+
+                                                                            </small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="emailPrint"
+                                                                            class="col-sm-3 col-form-label">ePrint
+                                                                            Email</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="emailPrint"
+                                                                                value="email@biteheist23.com">
+                                                                            <small>If you have an HP ePrint printer, add
+                                                                                the
+                                                                                email address here to get the orders
+                                                                                printed.
+                                                                            </small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationFax"
+                                                                            class="col-sm-3 col-form-label">Fax</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" class="form-control"
+                                                                                id="locationFax" value="Fax">
+                                                                            <small>Any fax number added will receive an
+                                                                                Fax.
+                                                                            </small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="serviceCharge"
+                                                                            class="col-sm-3 col-form-label">Service
+                                                                            Charge
+                                                                            status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="serviceCharge"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="serviceCharge"
+                                                                            class="col-sm-3 col-form-label">Clover</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="serviceCharge"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                </form>
+                                                            </div>
+                                                            <div class="tab-pane" id="profile" role="tabpanel">
+                                                                <form>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="serviceCharge"
+                                                                            class="col-sm-3 col-form-label"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="If print required is un-checked then the PDF print will not be sent">
+                                                                            <i class="bx bx-info-circle
+                                                                "></i> Print Required</label>
+                                                                        <div class="col-sm-9">
+                                                                            <div class="custom-control custom-switch custom-switch-lg"
+                                                                                dir="ltr">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="customSwitchsizelg" checked="">
+                                                                                <label class="custom-control-label"
+                                                                                    for="customSwitchsizelg"></label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="smsAlert"
+                                                                            class="col-sm-3 col-form-label">
+                                                                            SMS Alert</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="smsAlert"
+                                                                                placeholder="Enter Mobile Number"
+                                                                                class="form-control"
+                                                                                data-toggle="tooltip"
+                                                                                data-placement="top" title="SMS Alert">
+
+                                                                            <small>Any mobile number added will receive
+                                                                                an SMS
+                                                                                for each order with the link to the
+                                                                                order.</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="automatedCall"
+                                                                            class="col-sm-3 col-form-label">Automated
+                                                                            Call</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="automatedCall"
+                                                                                placeholder="Enter Mobile Number"
+                                                                                class="form-control"
+                                                                                data-toggle="tooltip"
+                                                                                data-placement="top"
+                                                                                title="Automated Call">
+
+                                                                            <small>An automated phone call will be
+                                                                                placed to the
+                                                                                location phone number noted above
+                                                                                alerting staff
+                                                                                an order has been placed.</small>
+
+                                                                            <div
+                                                                                class="custom-control custom-checkbox mb-2 mt-3">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="everyOrder">
+                                                                                <label class="custom-control-label"
+                                                                                    for="everyOrder">Every Order</label>
+                                                                            </div>
+                                                                            <div
+                                                                                class="custom-control custom-checkbox mb-2">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="ifPrintFails">
+                                                                                <label class="custom-control-label"
+                                                                                    for="ifPrintFails">If Prints Fails
+
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="noOfPrints"
+                                                                            class="col-sm-3 col-form-label">Number of
+                                                                            Prints</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="noOfPrints"
+                                                                                class="form-control">
+                                                                                <option value="">1</option>
+                                                                                <option value="">2</option>
+                                                                                <option value="">3</option>
+                                                                                <option value="">4</option>
+                                                                                <option value="">5</option>
+                                                                                <option value="">6</option>
+                                                                                <option value="">7</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="locationBasedTax"
+                                                                            class="col-sm-3 col-form-label">Location
+                                                                            Based
+                                                                            Tax</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="locationBasedTax"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="printgenieStatus"
+                                                                            class="col-sm-3 col-form-label">Printgenie
+                                                                            status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="printgenieStatus"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="ipadRefreshTime"
+                                                                            class="col-sm-3 col-form-label">Ipad Refresh
+                                                                            Time In
+                                                                            Minutes</label>
+                                                                        <div class="col-sm-9">
+
+                                                                            <input type="text" id="ipadRefreshTime"
+                                                                                value="0" class="form-control"
+                                                                                data-toggle="tooltip"
+                                                                                data-placement="top"
+                                                                                title="Ipad Refresh Time In Minutes">
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="ipadRefreshTime"
+                                                                            class="col-sm-3 col-form-label">Hide Prep
+                                                                            Times</label>
+                                                                        <div class="col-sm-9">
+
+                                                                            <div
+                                                                                class="custom-control custom-checkbox mb-2">
+                                                                                <input type="checkbox"
+                                                                                    class="custom-control-input"
+                                                                                    id="everyOrder" checked>
+                                                                                <label class="custom-control-label"
+                                                                                    for="everyOrder"></label>
+                                                                            </div>
+                                                                            <small>Check this box if you do not want the
+                                                                                customer to see the ready time on their
+                                                                                receipt.</small>
+                                                                        </div>
+                                                                    </div>
+
+
+
+                                                                </form>
+                                                            </div>
+                                                            <div class="tab-pane" id="messages" role="tabpanel">
+
+                                                                <form>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="enablePickup"
+                                                                            class="col-sm-3 col-form-label">Enable Pick
+                                                                            Up</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="enablePickup"
+                                                                                class="form-control enable-prep">
+                                                                                <option value="1">Enabled</option>
+                                                                                <option value="2">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div
+                                                                        class="form-group row mb-4 enable-prep-container">
+                                                                        <label for="pickupPrepTime"
+                                                                            class="col-sm-3 col-form-label"
+                                                                            data-toggle="tooltip" data-placement="top"
+                                                                            title="If print required is un-checked then the PDF print will not be sent">
+                                                                            <i class="bx bx-info-circle
+                                                                "></i> Pick Up Prep Time
+                                                                            (in min)</label>
+                                                                        <div class="col-sm-9">
+                                                                            <input type="text" id="pickupPrepTime"
+                                                                                class="form-control" value="45"
+                                                                                data-toggle="tooltip"
+                                                                                data-placement="top"
+                                                                                title="Pick Up Prep Time (in min)">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group row mb-4">
+                                                                        <label for="enableDelivery"
+                                                                            class="col-sm-3 col-form-label">Enable
+                                                                            Delivery</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="enableDelivery"
+                                                                                class="form-control enable-delivery">
+                                                                                <option value="1">Enabled</option>
+                                                                                <option value="2">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                    <div class="enable-deliver-container">
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryFee"
+                                                                                class="col-sm-3 col-form-label">Delivery
+                                                                                Fee</label>
+                                                                            <div class="col-sm-9">
+                                                                                <input type="text" id="deliveryFee"
+                                                                                    class="form-control" value="10.00"
+                                                                                    data-toggle="tooltip"
+                                                                                    data-placement="top"
+                                                                                    title="Delivery Fee">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="maxDeliveryAmount"
+                                                                                class="col-sm-3 col-form-label">Minimum
+                                                                                Delivery
+                                                                                Amount</label>
+                                                                            <div class="col-sm-9">
+                                                                                <input type="text"
+                                                                                    id="maxDeliveryAmount"
+                                                                                    class="form-control" value="10.00"
+                                                                                    data-toggle="tooltip"
+                                                                                    data-placement="top"
+                                                                                    title="Minimum Delivery Amount">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryFeeDelivery"
+                                                                                class="col-sm-3 col-form-label">Delivery
+                                                                                Fee
+                                                                                Settings</label>
+                                                                            <div class="col-sm-9">
+                                                                                <select name="" id="deliveryFeeDelivery"
+                                                                                    class="form-control">
+                                                                                    <option value="">Always apply
+                                                                                        delivery fee
+                                                                                    </option>
+                                                                                    <option value=""> Apply delivery fee
+                                                                                        if the
+                                                                                        subtotal is less than the
+                                                                                        delivery minimum
+                                                                                    </option>
+                                                                                    <option value=""> Do not allow
+                                                                                        ordering until
+                                                                                        the subtotal is more than the
+                                                                                        delivery
+                                                                                        minimum</option>
+                                                                                    <option value=""> None of the above
+                                                                                    </option>
+
+
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="maxDeliveryAmount"
+                                                                                class="col-sm-3 col-form-label">Delivery
+                                                                                ready
+                                                                                Time</label>
+                                                                            <div class="col-sm-9">
+                                                                                <input type="text"
+                                                                                    id="maxDeliveryAmount"
+                                                                                    class="form-control" value="60"
+                                                                                    data-toggle="tooltip"
+                                                                                    data-placement="top"
+                                                                                    title="Delivery ready Time">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryOptions"
+                                                                                class="col-sm-3 col-form-label">Delivery
+                                                                                Option</label>
+                                                                            <div class="col-sm-9">
+
+                                                                                <div
+                                                                                    class="custom-control custom-radio mb-3">
+                                                                                    <input type="radio"
+                                                                                        id="customRadio1"
+                                                                                        name="customRadio"
+                                                                                        class="custom-control-input">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio1">GeoFence</label>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="custom-control custom-radio ">
+                                                                                    <input type="radio"
+                                                                                        id="customRadio2"
+                                                                                        name="customRadio"
+                                                                                        class="custom-control-input"
+                                                                                        checked="">
+                                                                                    <label class="custom-control-label"
+                                                                                        for="customRadio2">Delivery
+                                                                                        Listings
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="form-group row mb-4">
+                                                                            <label for="deliveryZone"
+                                                                                class="col-sm-3 col-form-label">Delivery
+                                                                                Zone
+                                                                            </label>
+                                                                            <div class="col-sm-9">
+                                                                                <iframe
+                                                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10299359.556503888!2d-85.00792895146795!3d36.30571718471371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6b7d8d4b54beb%3A0x89f514d88c3e58c1!2sPhiladelphia%2C%20PA%2C%20USA!5e0!3m2!1sen!2sin!4v1600168978476!5m2!1sen!2sin"
+                                                                                    width="100%" height="450"
+                                                                                    frameborder="0" style="border:0;"
+                                                                                    allowfullscreen=""
+                                                                                    aria-hidden="false"
+                                                                                    tabindex="0"></iframe>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            <div class="tab-pane" id="settings" role="tabpanel">
+                                                                <form>
+                                                                    <div class="form-group row mt-2">
+                                                                        <label for="reportStatus"
+                                                                            class="col-sm-3 col-form-label">Report
+                                                                            Status</label>
+                                                                        <div class="col-sm-9">
+                                                                            <select name="" id="reportStatus"
+                                                                                class="form-control">
+                                                                                <option value="">Enabled</option>
+                                                                                <option value="">Disabled</option>
+
+                                                                            </select>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>  -->
+                                        <!-- Show it later ends -->
+
+                                        <!-- Tab panes -->
+
+
+
+
+
+
+
+
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                          
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end page title -->
+        </div>
+        <!-- container-fluid -->
+    </div>
+    <!-- End Page-content -->
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!-- end main content-->
+    </div>
+    <!-- END layout-wrapper -->
+
+    <!-- Right Sidebar -->
+    <div class="right-bar">
+        <div data-simplebar class="h-100">
+            <div class="rightbar-title px-3 py-4">
+                <a href="javascript:void(0);" class="right-bar-toggle float-right">
+                    <i class="mdi mdi-close noti-icon"></i>
+                </a>
+                <h5 class="m-0">Settings</h5>
+            </div>
+
+            <!-- Settings -->
+            <hr class="mt-0" />
+            <h6 class="text-center mb-0">Choose Layouts</h6>
+
+            <div class="p-4">
+                <div class="mb-2">
+                    <img src="assets/images/layouts/layout-1.jpg" class="img-fluid img-thumbnail" alt="" />
+                </div>
+                <div class="custom-control custom-switch mb-3">
+                    <input type="checkbox" class="custom-control-input theme-choice" id="light-mode-switch" checked />
+                    <label class="custom-control-label" for="light-mode-switch">Light Mode</label>
+                </div>
+
+                <div class="mb-2">
+                    <img src="assets/images/layouts/layout-2.jpg" class="img-fluid img-thumbnail" alt="" />
+                </div>
+                <div class="custom-control custom-switch mb-3">
+                    <input type="checkbox" class="custom-control-input theme-choice" id="dark-mode-switch"
+                        data-bsStyle="assets/css/bootstrap-dark.min.css" data-appStyle="assets/css/app-dark.min.css" />
+                    <label class="custom-control-label" for="dark-mode-switch">Dark Mode</label>
+                </div>
+
+                <div class="mb-2">
+                    <img src="assets/images/layouts/layout-3.jpg" class="img-fluid img-thumbnail" alt="" />
+                </div>
+                <div class="custom-control custom-switch mb-5">
+                    <input type="checkbox" class="custom-control-input theme-choice" id="rtl-mode-switch"
+                        data-appStyle="assets/css/app-rtl.min.css" />
+                    <label class="custom-control-label" for="rtl-mode-switch">RTL Mode</label>
+                </div>
+            </div>
+        </div>
+        <!-- end slimscroll-menu-->
+    </div>
+    <!-- /Right-bar -->
+
+    <!-- Right bar overlay-->
+    <div class="rightbar-overlay"></div>
+
+    <!-- JAVASCRIPT -->
+    <script src="assets/libs/jquery/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+    <script src="assets/libs/simplebar/simplebar.min.js"></script>
+    <script src="assets/libs/node-waves/waves.min.js"></script>
+
+    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+
+    <script src="assets/js/pages/dashboard.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        // $(document).ready(function(){
+        //     $(".enable-delivery").change(function(){
+        //         $(this).find("option:selected").each(function(){
+        //             var optionValue = $(this).attr("value");
+        //             if(optionValue){
+        //                 $(".enable-deliver-container").not("." + optionValue).hide();
+        //                 $("." + optionValue).show();
+        //             } else{
+        //                 $(".enable-deliver-container").hide();
+        //             }
+        //         });
+        //     }).change();
+        // });
+
+
+        $('.enable-delivery').on('change', function () {
+            if (this.value == '1') {
+                $(".enable-deliver-container").show();
+            } else {
+                $(".enable-deliver-container").hide();
+            }
+
+        });
+        $('.enable-prep').on('change', function () {
+            if (this.value == '1') {
+                $(".enable-prep-container").show();
+            } else {
+                $(".enable-prep-container").hide();
+            }
+
+        });
+        $(".open-nested-location-tab").click(function () {
+            $(".latest-transaction").hide();
+            $(".nested-location-tab").show();
+        });
+    </script>
+</body>
+
+</html>
