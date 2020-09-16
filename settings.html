@@ -1260,14 +1260,14 @@
                                                                             Up</label>
                                                                         <div class="col-sm-9">
                                                                             <select name="" id="enablePickup"
-                                                                                class="form-control enable-delivery">
+                                                                                class="form-control enable-prep">
                                                                                 <option value="">Enabled</option>
                                                                                 <option value="">Disabled</option>
         
                                                                             </select>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="form-group row mb-4">
+                                                                    <div class="form-group row mb-4 enable-prep-container">
                                                                         <label for="pickupPrepTime"
                                                                             class="col-sm-3 col-form-label" data-toggle="tooltip" data-placement="top"
                                                                             title="If print required is un-checked then the PDF print will not be sent">
@@ -2041,12 +2041,23 @@
         $('.enable-delivery').on('change', function() {
       if ( this.value == '1')
       {
-        $("#enable-deliver-container").show();
+        $(".enable-deliver-container").show();
       }
       else
       {
         $(".enable-deliver-container").hide();
       }
+      
+    });  $('.enable-prep').on('change', function() {
+      if ( this.value == '1')
+      {
+        $(".enable-prep-container").show();
+      }
+      else
+      {
+        $(".enable-prep-container").hide();
+      }
+      
     });
         $(".open-nested-location-tab").click(function () {
             $(".latest-transaction").hide();
