@@ -1261,8 +1261,8 @@
                                                                         <div class="col-sm-9">
                                                                             <select name="" id="enablePickup"
                                                                                 class="form-control enable-prep">
-                                                                                <option value="">Enabled</option>
-                                                                                <option value="">Disabled</option>
+                                                                                <option value="1">Enabled</option>
+                                                                                <option value="2">Disabled</option>
         
                                                                             </select>
                                                                         </div>
@@ -1288,8 +1288,8 @@
                                                                         <div class="col-sm-9">
                                                                             <select name="" id="enableDelivery"
                                                                                 class="form-control enable-delivery">
-                                                                                <option value="">Enabled</option>
-                                                                                <option value="">Disabled</option>
+                                                                                <option value="1">Enabled</option>
+                                                                                <option value="2">Disabled</option>
         
                                                                             </select>
                                                                         </div>
@@ -2038,6 +2038,22 @@
     <script src="assets/js/pages/dashboard.init.js"></script>
     <script src="assets/js/app.js"></script>
     <script>
+
+// $(document).ready(function(){
+//     $(".enable-delivery").change(function(){
+//         $(this).find("option:selected").each(function(){
+//             var optionValue = $(this).attr("value");
+//             if(optionValue){
+//                 $(".enable-deliver-container").not("." + optionValue).hide();
+//                 $("." + optionValue).show();
+//             } else{
+//                 $(".enable-deliver-container").hide();
+//             }
+//         });
+//     }).change();
+// });
+
+
         $('.enable-delivery').on('change', function() {
       if ( this.value == '1')
       {
