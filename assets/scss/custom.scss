@@ -1,4 +1,24 @@
-.settings-hours {
+// Variables
+
+$blue:#007bff;
+
+// .settings-hours {
+//     .btn {
+//         height: 25px;
+//         width: 25px;
+//         padding: 0;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//     }
+// }
+
+.select-dates {
+    select {
+        width: auto;
+        margin: 0 auto;
+    }
+
     .btn {
         height: 25px;
         width: 25px;
@@ -6,5 +26,27 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .btn-group {
+
+
+        .btn {
+            height: 50px;
+            border-radius: 0;
+        }
+
+
+    }
+
+    .bg-primary,
+    .btn-primary {
+        background-color: $blue !important;
+
+        &:focus,
+        &:hover {
+            background-color: $blue !important;
+            box-shadow: none !important;
+        }
     }
 }
